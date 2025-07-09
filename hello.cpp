@@ -10,6 +10,11 @@ void swap2(int &a, int &b)
     b = a;
     a = temp;
 }
+void print(int arr[] , int n ){
+    for(int i = 0;i<n;i++){
+        cout<<arr[i]<<" ";
+    }
+}
 int main()
 {
     cout << "namstey duniya" << endl;
